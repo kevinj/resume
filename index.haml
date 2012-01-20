@@ -1,0 +1,117 @@
+!!!
+%html{:xmlns => "http://www.w3.org/1999/xhtml", "xml:lang" => "en", :lang => "en"}
+  %head
+    %meta{:content => "text/html; charset=utf-8", "http-equiv" => "Content-Type"}/
+    %title Kevin Jones - Résumé
+    %link{:href => "style.css", :rel => "stylesheet", :type => "text/css"}/
+  %body
+    #page-wrap
+      %img#pic{:alt => "Photo of Kevin", :src => "images/photo.png"}/
+      #contact-info.vcard
+        %h1.fn Kevin Jones
+        %p
+          Cell:
+          %span.tel 778.230.6007
+          %br/
+          Email:
+          %a.email{:href => "mailto:kvn.jns@gmail.com"} kvn.jns@gmail.com
+      #objective
+        %p
+          I am a UI Developer with many years of experience building powerful
+          web applications. My primary passion throughout my career has been
+          front-end development, but my versatile skills have made me an asset
+          across all areas of web programming.
+        %p
+          In addition to software development, I also have a strong interest
+          in human language, and I am slowly working towards becoming a hobby
+          Linguist.
+      .clear
+      %dl
+
+        %dt Skills
+        %dd
+          %h2 Front-end
+          :markdown
+            I am an expert in writing web interfaces using JavaScript, HTML, and CSS, but I have recently fallen in love with [CoffeeScript](http://coffeescript.org/), [Haml](http://haml-lang.com/) and [Sass](http://sass-lang.com/). I am also particularily interested in creating interfaces that utilize new features in modern browsers without sacrificing usability and functionality in other browsers.
+
+          %h2 Back-end
+          :markdown
+            My primary server-side strength is as a [Perl](http://perl.org) developer, but I am always eager to learn new languages. I am very comfortable using several flavours of unix and am also very competent with relational databases, particularily [PostgreSQL](http://www.postgresql.org/).
+
+          %h2 Development Methodologies
+          :markdown
+            I have been a member of teams that have used a wide variety of agile development methodologies. At Sophos, I was introduced to agile in the form of scrum and later Industrial XP. At Socialtext, we were faced with the added challenge of adapting agile development practices (particularily [Kanban](http://en.wikipedia.org/wiki/Kanban_(development)) to a distributed development structure. 
+
+        .clear
+
+        %dt Experience
+        %dd
+          %h2
+            Socialtext Inc.
+            %span March 2007 - Present
+          %h3 Senior Software Developer
+          %ul
+            %li Served as the principal UI developer, creating a rich social collaboration platform for enterprise customers.
+            %li
+              :markdown
+                Built the Socialtext Dashboard as an [OpenSocial](http://opensocial.org/) container, allowing third parties to develop powerful UI integrations using open APIs.
+            %li Worked remotely from my home in Vancouver, BC (as well as from Argentina, Japan and Austria) with a distributed development team of highly talented individuals.
+            %li Overcame the challenges of building modern user interfaces for companies standardized on older versions of Internet Explorer.
+          %br/
+
+          %h2
+            Sophos Inc.
+            %span October 2004 - March 2007
+          %h3 Software Developer
+          %ul
+            %li Member of an XP team that developed a gateway Email Security Appliance that filters emails based on spam, viruses and other content policies.
+            %li Organically developed a framework for creating reports which notify administrators of mail traffic through the appliance. The framework I developed was also used to create reports in another Sophos product, PureMessage.
+            %li Developed a system which indexes mail logs and then gives administrators the ability to search quickly over the past 30 days in order to discover why a message was rejected, quarantined, dropped, etc.
+
+        .clear
+
+        %dt Other Projects
+
+        %dd
+          %h2
+            Recollect (Formerly VanTrash)
+            %span 2009 - Present
+          %p
+            For several years, I have been enthusiastic about the Open Data
+            movement and its ability to empower citizens. Along with two
+            friends, I co-founded the web site VanTrash.ca in 2009, which used
+            data from the 
+            %a{:href => "http://data.vancouver.ca"}
+              City of Vancouver's Open Data Catalogue
+            to provide a notification service to help citizens remember when to
+            take the garbage out. The app won the People's Choice award in the 
+            %a{:href => "http://www.livesmartbc.ca/A4CA/gallery.html"}
+              Apps 4 Climate Action
+            contest in 2010. We have since renamed the service
+            %a{:href => "http://recollect.net"} Recollect.net
+            and have expanded to more than 20 municipalities across Canada.
+
+        .clear
+
+        %dt Education
+
+        %dd
+          %h2
+            Simon Fraser University
+            %span 2010 - Present (Part-time)
+          %h3 Linguistics
+          %br/
+
+          %h2
+            British Columbia Institute of Technology
+            %span 2002 - 2004
+          %h3
+            Diploma of Technology with Honours Standing
+            %br/
+            Computer Systems Technology (Data Communications Option)
+
+        .clear
+
+    .footer
+      :markdown
+        This résumé was originally based on [C'thulhu's](http://css-tricks.com/one-page-resume-site/), and developed using [Haml](http://haml-lang.com/) and [Sass](http://sass-lang.com/).
