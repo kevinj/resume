@@ -2,6 +2,9 @@ NETWORK_VOLUME=/Volumes/kjo.ca
 
 all: index.html style.css
 
+clean:
+	rm index.html style.css
+
 index.html: index.haml
 	haml $< $@
 
