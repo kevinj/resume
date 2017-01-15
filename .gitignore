@@ -1,3 +1,5 @@
 index.html
 style.css
 .sass-cache/
+*.swp
+*.zip
